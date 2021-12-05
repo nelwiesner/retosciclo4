@@ -19,7 +19,7 @@ function comprobarEmail() {
     var email =$("#useremail").val()
     //Petición Ajax
     $.ajax({
-        url:"http://localhost:8080/api/user/"+email,
+        url:"http://129.151.124.172:8080/api/user/"+email,
         type:'GET',
         dataType:'json',
 
