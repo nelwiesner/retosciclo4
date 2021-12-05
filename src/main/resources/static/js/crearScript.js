@@ -26,7 +26,7 @@ function comprobarEmail() {
         success:function(respuesta){
             console.log(respuesta);
             if(respuesta){
-                window.alert("Email ya existe");
+                alert("Email ya existe");
             }
             else{
                 save();
@@ -58,7 +58,7 @@ var datos={
       contentType:"application/JSON",
       
       success:function(respuesta){
-        window.alert("Usuario creado correctamente");
+        alert("Usuario creado correctamente");
       },
 
       error:function(xhr, status){
