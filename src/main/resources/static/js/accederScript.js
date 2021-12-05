@@ -6,7 +6,7 @@ function acceder() {
     }else{
         //Petición Ajax
     $.ajax({
-        url:"http://localhost:8080/api/user/"+correo+"/"+contrasena,
+        url:"http://129.151.124.172:8080/api/user/"+correo+"/"+contrasena,
         type:'GET',
         dataType:'json',
 

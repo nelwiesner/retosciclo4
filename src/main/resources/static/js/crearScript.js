@@ -52,7 +52,7 @@ var datos={
 
   //Petición Ajax
   $.ajax({
-      url:"http://localhost:8080/api/user/new",
+      url:"http://129.151.124.172:8080/api/user/new",
       data:datosPeticion,
       type:'POST',
       contentType:"application/JSON",
